@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Byte URL Shortener - version 0.0666 Alpha</title>
+    </head>
+    <body>
+        <form method="POST">
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" />
+        </form>
+    </body>
+</html>
